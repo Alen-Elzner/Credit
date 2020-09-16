@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         RateService service = new RateService();
-        double Loan = service.calculate(1_000_000, 9.99, 12);
-        System.out.println(Loan);
+        double loan = service.calculate(1_000_000.0, 0.0999, 12.0);
+        System.out.println(loan);
     }
 }
